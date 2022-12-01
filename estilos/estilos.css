@@ -1,0 +1,324 @@
+@font-face{
+    font-family: caribbean;
+    src: url('../fuentes/caribbean.ttf');
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    color: #2b1f17;
+    text-align: left;
+    line-height: 25px;
+    background: url('../imagenes/fondo.jpg') no-repeat center fixed;
+}
+
+.contenedor{
+    margin: auto;
+    width: 1300px;
+    position: relative;
+}
+
+header{
+    width: 1300px;
+    background-color: #d2b49760;
+    margin: auto;
+    position: fixed;
+    z-index: 30;
+    height: 80px;
+}
+
+h1{
+    font-size: 0%;
+    background: url('../imagenes/piratasdelcaribe.png') no-repeat;
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin: 30px 0px 20px 30px;
+}
+
+#barra{
+  float: right;  
+  width: 700px;
+  margin: 30px 0px 20px 30px;
+  font-size: 25px;
+}
+
+#barra ul{
+    list-style: none;
+}
+
+#barra ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a:link{
+    text-decoration: none;
+    color: #2b1f17;
+}
+
+nav ul li a:visited{
+    color: #2b1f17;
+}
+
+nav ul li a:hover{
+    color: #871717;
+    text-decoration: underline;
+}
+
+#banner{
+    margin: auto;
+    clear: both;
+}
+
+h2{
+    padding: 30px 0px 10px 30px;
+    font-size: 20px;
+    font-family: caribbean;
+}
+
+p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.nombres{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+#js{
+    padding: 40px 20px 40px 120px;
+    height: auto;
+    float: left;
+    position: relative;
+    animation-name: desplazamiento;
+    animation-duration: 4s;
+    animation-delay: 1s;
+     animation-iteration-count: 2;
+    
+}
+
+#es{
+    padding: 40px 20px 40px 0px;
+    height: auto;
+    float: left; 
+    position: relative;
+    animation-name: desplazamiento;
+    animation-duration: 4s;
+    animation-delay: 1s;
+     animation-iteration-count: 2;
+}
+
+#wt{
+    padding: 40px 20px 40px 0px;
+    height: auto;
+    float: left;  
+    position: relative;
+    animation-name: desplazamiento;
+    animation-duration: 4s;
+    animation-delay: 1s;
+     animation-iteration-count: 2;
+}
+
+#hb{
+    padding: 40px 120px 40px 0px;
+    height: auto;
+    float: left; 
+    position: relative;
+    animation-name: desplazamiento;
+    animation-duration: 4s;
+    animation-delay: 1s;
+     animation-iteration-count: 2;
+}
+
+#sinopsisuno{
+    background-color: #d2b49760;
+    width: 1300px;
+    height: 1150px;
+    clear: left;
+}
+
+.articulouno{
+    transform-style: preserve-3d;
+    background-color: #d2b497;
+    border: 0cm;
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin: 30px 50px 20px 100px;
+    float: left;
+}
+
+.articulodos{
+    transform-style: preserve-3d;
+    background-color: #d2b497;
+    border: 0cm;
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin: 30px 50px 20px 200px;
+    float: left;
+}
+
+h3{
+    padding: 30px 0px 10px 30px;
+    font-size: 20px;
+    font-family: caribbean;
+}
+
+h4{
+    text-align: center;
+    font-family: caribbean;
+}
+
+.parrafoart{
+    text-align: left;
+    padding: 5px;
+}
+
+.nombrespeli{
+    font-weight: bold;
+    text-align: center;
+}
+
+#uno{
+    padding: 100px;
+    margin: 0px;
+    height: auto;
+    float: left;
+}
+
+#dos{
+    padding: 100px;
+    margin: 0px;
+    height: auto;
+    float: left;
+}
+
+#tres{
+    padding: 100px;
+    margin: 0px;
+    height: auto;
+    float: left;
+}
+
+#cuatro{
+    padding: 0px 150px 50px 300px;
+    margin: 0px;
+    height: auto;
+    float: left;
+}
+
+#cinco{
+    padding: 0px 150px 50px 50px;
+    margin: 0px;
+    height: auto;
+    float: left;
+}
+
+.nombrespeli:hover{
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}
+
+#uno:hover{
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}
+
+#dos:hover{ 
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}
+
+#tres:hover{
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+} 
+
+#cuatro:hover{
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}  
+
+#cinco:hover{
+    animation-name: comienzo;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}
+
+#direc{
+    clear: left;
+}
+
+#galeria{
+  margin: 20px 0px 0px 20px; 
+}
+
+
+#footer{
+    background-color: #d2b49760;
+    width: 1300px;
+    height: 180px;
+}
+
+#footer a{
+   float: left;
+   margin: 0px 0px 5px 30px;
+}
+
+#alumna{
+    font-size: 20px;
+    text-align: left;
+}
+
+#recargar{
+    clear: both;
+}
+
+#recargar a:visited{
+    color: #2b1f17;
+}
+
+#recargar a:hover{ 
+    color: #871717;
+    text-decoration: underline;
+}
+
+@keyframes comienzo{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0,5;
+    }
+}
+
+@keyframes desplazamiento{
+    0%{
+        top: 0px; left: -100px;
+    }
+    100%{
+        top: 0px; left: 0px;
+    }
+}
